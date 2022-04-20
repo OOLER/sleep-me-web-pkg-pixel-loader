@@ -1,6 +1,6 @@
 {
   "name": "@sleepme/nuxt-pixel-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NuxtJS module to intuitively import 3rd party integrations.",
   "main": "module.js",
   "license": "MIT",

@@ -5,12 +5,15 @@
  * @param integer delay timeout before firing callback
  */
  export const onLoad = (callback, delay = 1) => {
-  // missed the load event, run now
-  if (document.readyState === 'complete') {
-    setTimeout(() => callback(), delay);
-  } else {
-    window.addEventListener('load', () => {
+  // check that we're not on the server side before calling window and document
+  if(process.client){
+    // missed the load event, run now
+    if (document.readyState === 'complete') {
       setTimeout(() => callback(), delay);
-    });
+    } else {
+      window.addEventListener('load', () => {
+        setTimeout(() => callback(), delay);
+      });
+    }
   }
 };
