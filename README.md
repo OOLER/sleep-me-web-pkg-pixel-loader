@@ -24,24 +24,24 @@
 
 ```bash
 # npm
-$ npm install --save @sutura/nuxt-pixel-loader
+$ npm install --save @sleepme/nuxt-pixel-loader
 
 # yarn
-$ yarn add @sutura/nuxt-pixel-loader
+$ yarn add @sleepme/nuxt-pixel-loader
 ```
 
 
 
 ## Getting Started
 
-Add `'@sutura/nuxt-pixel-loader'` to the `modules` section of your `nuxt.config.js` file.
+Add `'@sleepme/nuxt-pixel-loader'` to the `modules` section of your `nuxt.config.js` file.
 
 #### Inline configuration entry
 
 ```javascript
 {
   buildModules: [
-    ['@sutura/nuxt-pixel-loader'],
+    ['@sleepme/nuxt-pixel-loader'],
   ]
 }
 ```
