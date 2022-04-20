@@ -1,0 +1,24 @@
+{
+  "name": "@sleepme/nuxt-pixel-loader",
+  "version": "1.0.0",
+  "description": "A NuxtJS module to intuitively import 3rd party integrations.",
+  "main": "module.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OOLER/sleep-me-web-pkg-pixel-loader.git"
+  },
+  "keywords": [
+    "nuxt",
+    "pixel",
+    "tracking"
+  ],
+  "author": "Stephen Mark Toms",
+  "bugs": {
+    "url": "https://github.com/OOLER/sleep-me-web-pkg-pixel-loader/issues"
+  },
+  "homepage": "https://github.com/OOLER/sleep-me-web-pkg-pixel-loader#readme"
+}
